@@ -1,0 +1,9 @@
+ <root BTCPP_format="4">
+     <BehaviorTree>
+        <Sequence>
+            <LinearAction name="linear" action_name="linear" target_x="{target_x}" control_speed="{control_speed}" tolerance="{tolerance}" velocity_profile="{velocity_profile}" time_allowance="{time_allowance}"/>
+            <RotateAction name="rotate" action_name="rotate" target_yaw="{target_yaw}" control_angular_speed="{control_angular_speed}" tolerance="{tolerance}" velocity_profile="{velocity_profile}" time_allowance="{time_allowance}"/>
+            <LinearAction name="linear" action_name="linear" target_x="{target_x}" control_speed="{control_speed}" tolerance="{tolerance}" velocity_profile="{velocity_profile}" time_allowance="{time_allowance}"/>
+        </Sequence>
+     </BehaviorTree>
+ </root>

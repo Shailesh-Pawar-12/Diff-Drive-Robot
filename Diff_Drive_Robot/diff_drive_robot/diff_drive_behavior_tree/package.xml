@@ -1,0 +1,21 @@
+<package format="3">
+  <name>diff_drive_behavior_tree</name>
+  <version>0.2.0</version>
+  <description>TODO</description>
+
+  <maintainer email="shaileshpawar320@gmail.com">Shailesh Pawar</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>behaviortree_ros2</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>bt_interfaces</depend>
+
+
+<export>
+  <build_type>ament_cmake</build_type>
+</export>
+
+</package>

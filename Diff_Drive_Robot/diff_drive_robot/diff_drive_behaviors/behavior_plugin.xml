@@ -1,0 +1,12 @@
+<class_libraries>
+	<library path="diff_drive_rotate_behavior">
+		<class name="diff_drive_behaviors/Rotate" type="diff_drive_behaviors::Rotate" base_class_type="nav2_core::Behavior">
+		<description></description>
+		</class>
+	</library>
+	<library path="diff_drive_linear_behavior">
+		<class name="diff_drive_behaviors/Linear" type="diff_drive_behaviors::Linear" base_class_type="nav2_core::Behavior">
+		<description></description>
+		</class>
+	</library>
+</class_libraries>

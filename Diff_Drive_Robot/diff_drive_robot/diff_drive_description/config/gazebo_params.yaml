@@ -1,0 +1,24 @@
+# Gazebo parameters for differential drive robot simulation
+gazebo:
+  ros__parameters:
+    # Gazebo-specific physics parameters
+    world_name: "empty.world"
+    physics:
+      gravity:
+        xyz: [0, 0, -9.81] # Gravity
+      max_step_size: 0.001 # Maximum simulation step size
+      real_time_update_rate: 1000 # Update rate of physics engine
+
+    # Use simulation time
+    use_sim_time: true
+
+    # Enable/disable physics engine
+    enable_physics: true
+
+    # Enable visualization of the simulation
+    gui:
+      enable: true
+
+    # These can be used for enabling/disabling joint limits, controlling time steps, etc.
+    physics_rate: 1000 # Hz, to control simulation rate
+    max_update_rate: 500 # Max number of updates per second

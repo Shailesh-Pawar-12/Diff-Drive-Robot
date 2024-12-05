@@ -1,0 +1,15 @@
+#goal definition
+float64 target_yaw
+float32 control_angular_speed 0.2
+float32 tolerance 0.05
+uint8 velocity_profile 2
+builtin_interfaces/Duration time_allowance
+---
+#result definition
+builtin_interfaces/Duration total_elapsed_time
+#bool success
+#float32 error
+---
+#feedback definition
+float32 angular_distance_traveled
+float64 angular_distance_remaining
